@@ -15,7 +15,10 @@ La instalación es sencilla y está muy bien explicada en el README del proyecto
 
 Lo que voy a detallar es cómo se crea un PR desde la herramienta, como ejemplo de su uso: 
 
-1. Tener una rama diferente a master con commits, para nuestro ejemplo usaremos una con el nombre “20200909_uso-la-terminal-hasta-en-github” que es la rama que usaré para subir este artículo al blog (meme explosión cabeza).
+1. Tener una rama diferente a master con commits, para nuestro ejemplo usaremos una con el nombre “20200909_uso-la-terminal-hasta-en-github” que es la rama que usaré para subir este artículo al blog.
+
+   <div class="center-text"><img src="https://i.ibb.co/MPTv0Hm/giphy.webp" alt="mind blow!" border="0"></div>
+
 2. Hay que ejecutar el siguiente comando: 
 
     <div class="center-text"><img alt="gh pr create" src="{{site.baseurl}}/assets/img/uso-la-terminal-hasta-en-github-2.png" /></div>
@@ -24,7 +27,7 @@ Lo que voy a detallar es cómo se crea un PR desde la herramienta, como ejemplo 
 
 3. Desde este punto, podemos terminar (“Submit”), cancelar (“Cancel”), continuar la creación desde el navegador (“Continue in browser”) o más interesante agregar todos los datos adicionales que nos faltan, como puede ser los “Reviewers”, “Assignees”, etc. 
 
-    <div class="center-text"><img alt="gh pr create" src="{{site.baseurl}}/assets/img/uso-la-terminal-hasta-en-github-3.png" /></div>
+    <div class="center-text"><img alt="add metatags github cli" src="{{site.baseurl}}/assets/img/uso-la-terminal-hasta-en-github-3.png" /></div>
 
     Para el ejemplo vamos a agregar algún “Reviewer”, las opciones se seleccionan con la tecla “espacio” porque se pueden hacer varias selecciones simultáneas y, para terminar, procedemos con el “Enter”. 
 
@@ -34,4 +37,8 @@ En este punto solo tenemos la opción de Completar (“submit”) para terminar 
 
 Al completarlo la herramienta nos dará la URL del PR recién creado.
 
-Este es solo un ejemplo de la potencia que tiene la herramienta “GitHub CLI”, la cual mejora día a día. Como soy un friki de la consola, pues no la cambio por nada.
+<div class="center-text"><img alt="resultado pull request" src="{{site.baseurl}}/assets/img/uso-la-terminal-hasta-en-github-4.png" /></div>
+
+Este es solo un ejemplo de la potencia que tiene la herramienta “GitHub CLI” que mejora constantemente. Actualmente podemos interactuar con los Pull Request, las issues y repositorios casi en todas sus casuísticas. 
+
+Como soy un friki de la consola, este tipo de herramientas me alegran y facilitan mi día y espero que a vosotros también.
