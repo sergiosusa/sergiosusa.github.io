@@ -1,0 +1,44 @@
+title: Hola, soy Sergio Susa. Bienvenidos a mi página web.
+author: Sergio Susa
+iam: 💻 Ingeniero Informático • 👨‍🏫 Profesor • 🎤 Podcaster • ✍🏼Intento de escritor • 👶🏼Padre • 💸Accionista en @HolaLuzcom • 🤘Metalero • 🎮Vídeo jugador.
+email: sergio@sergiosusa.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Bienvenidos a mi página web personal, acá encontrarás información relevante sobre mi y además 
+  algunas mis vivencias y en general todo lo que creo que va a ser de interés general.
+keywords: tecnología,programación,javascript,php,java,phyton,ingeniería,susa
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sergiosusa.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_url: https://twitter.com/sergiosusa
+github_url:  https://github.com/sergiosusa
+facebook_url: https://www.facebook.com/sergiosusa
+linkedin_url: https://www.linkedin.com/in/sergiosusa
+instagram_url: https://www.instagram.com/sergiosusa
+
+# Projects
+podcast-personal-title: ¿Qué me estás container?
+podcast-personal-url: https://open.spotify.com/show/1FBSbmyYqo9AYbFehaoIWu?si=6fiuPtc7RNOudxJljzCdeA
+podcast-personal-image: que-me-estas-container-podcast.png
+
+podcast-todoestamal-title: Todo está mal
+podcast-todoestamal-url: https://open.spotify.com/show/7lSX0GlROui9UFK6SsJY3u?si=tIXMllc5RnGNolIG7YnOkA
+podcast-todoestamal-image: todo-esta-mal-podcast.png
+
+website-expertodesteam-title: Experto de Steam
+website-expertodesteam-url: https://expertodesteam.com
+website-expertodesteam-image: experto-de-steam-website.png
+
+# Tracker
+analytics: UA-65020023-1 # Google Analytics
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "blog/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -1,0 +1,97 @@
+---
+layout: main
+---
+
+<!-- Home Start -->
+<section class="bg-half d-table w-100" style="background: url('{{ "/assets/images/blog/" | prepend: site.baseurl | append : page.img}}') center center;">
+    <div class="bg-overlay bg-overlay-white"></div>
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-12 text-center">
+                <div class="page-next-level">
+                    <h4 class="title"> {{page.title}} </h4>
+                    <ul class="list-unstyled mt-3">
+                        <li class="list-inline-item me-3"><i class="mdi mdi-tag-outline me-1"></i><a href="javascript:void(0)" class="text-muted">{{ page.category }}</a></li>
+                        <li class="list-inline-item me-3"><i class="mdi mdi-account-heart me-1"></i><a href="javascript:void(0)" class="text-muted">{{ site.author }}</a></li>
+                        <li class="list-inline-item"><i class="mdi mdi-calendar-edit me-1"></i><span class="text-muted">{{page.date | date: '%Y, %b %d'}}</span> </li>
+                    </ul>
+                    <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
+                        <li><a href="{{ site.baseurl }}/" class="text-dark">{{ site.author }}</a></li>
+                        <li><a class="text-primary" href="{{ site.baseurl }}/blog/" >Blog</a></li>
+                    </ul>
+                </div>
+            </div>  <!--end col-->
+        </div><!--end row-->
+    </div> <!--end container-->
+</section><!--end section-->
+<!-- Home End -->
+
+<!-- Blog STart -->
+<section class="section">
+    <div class="container-lg">
+        <div class="row">
+            <!-- BLog Start -->
+            <div class="col-12">
+                <div class="blog position-relative overflow-hidden shadow rounded">
+                    <div class="content p-4">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+            <!-- BLog End -->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title">
+                    <div class="position-relative">
+                        <h4 class="title text-uppercase mb-4">Post Relacionados</h4>
+                        <div>
+                            <div class="title-box"></div>
+                            <div class="title-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+
+            {% assign randomPost = "" | split: ',' %}
+            {% for category in site.categories %}
+                {% if category[0] == page.category %}
+                    {% for post in category[1] %}
+                        {% if post.title != page.title  %}
+                            {% assign randomPost = randomPost | push: post %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+
+            {% assign randomPost = randomPost | sample: 3 %}
+
+            {% for post in randomPost %}
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="blog-post rounded shadow">
+                    <img src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded-top" alt="">
+                    <div class="content pt-4 pb-4 p-3">
+                        <ul class="list-unstyled d-flex justify-content-between post-meta">
+                            <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
+                            <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ post.category }}</a></li>
+                        </ul>
+                        <h5 class="mb-3"><a href="{{post.url | prepend: site.baseurl}}" class="title text-dark"> {{ post.title }}</a></h5>
+                        <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
+                            <li><a href="{{post.url | prepend: site.baseurl}}" class="text-dark">Leer más <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                            <li><i class="mdi mdi-calendar-edit me-1"></i>{{post.date | date: '%Y, %b %d'}}</li>
+                        </ul>
+                    </div><!--end content-->
+                </div><!--end blog post-->
+            </div><!--end col-->
+            {% endfor %}
+
+        </div><!--end row-->
+    </div><!--end container-->
+</section>
+<!-- Blog -->

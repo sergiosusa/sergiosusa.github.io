@@ -1,0 +1,43 @@
+//
+// .scss
+//
+.cta-full{
+    .container-fluid{
+        max-width: 100%;
+        .padding-less.img {
+            background: scroll center no-repeat;
+            background-size: cover;
+            position: absolute;
+            height: 100%;
+        }
+    }    
+    .cta-full-img-box{
+        padding: 100px 10%;
+        @media (max-width: 768px) {
+            padding: 60px 0%;
+        }
+    }       
+    .cta-full-head {
+        font-size: 22px;    
+        letter-spacing: 0.8px;
+    }
+}
+@media (max-width: 991){
+    .cta-full {
+        .padding-less {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-full {
+        .padding-less {
+            position: relative !important;
+            height: 300px !important;
+        }
+        .cta-full-content {
+            text-align: left !important;
+        }    
+    }
+}

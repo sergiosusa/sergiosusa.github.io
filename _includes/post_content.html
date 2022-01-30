@@ -1,0 +1,124 @@
+<!-- Blog -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-6">
+                <div class="row">
+                    {% for post in include.posts %}
+                    <div class="col-lg-6 col-12 mb-4 pb-2">
+                        <div class="blog-post rounded shadow">
+                            <img src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded-top" alt="">
+                            <div class="content pt-4 pb-4 p-3">
+                                <ul class="list-unstyled d-flex justify-content-between post-meta">
+                                    <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
+                                    <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ post.category }}</a></li>
+                                </ul>
+                                <h5 class="mb-3"><a href="{{post.url | prepend: site.baseurl}}" class="title text-dark">{{post.title}}</a> </h5>
+                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
+                                    <li><a href="{{post.url | prepend: site.baseurl}}" class="text-dark">Leer más <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                                    <li><i class="mdi mdi-calendar-edit me-1"></i>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;</li>
+                                </ul>
+                            </div><!--end content-->
+                        </div><!--end blog post-->
+                    </div><!--end col-->
+                    {% endfor %}
+
+                    {% include pagination.html %}
+
+                </div><!--end row-->
+            </div><!--end col-->
+
+            <!-- START SIDEBAR -->
+            <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="sidebar sticky-sidebar">
+                    <!-- Author -->
+                    <div class="widget">
+                        <div class="p-4 rounded shadow">
+                            <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Author</h6>
+                            <div class="text-center author mt-4">
+                                <img src="{{site.baseurl}}/assets/images/home/sergio-susa.webp" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
+                                <div class="mt-4">
+                                    <h6>{{ site.author }}</h6>
+                                    <small>{{ site.iam }}</small>
+                                    <ul class="list-unstyled social-icon social mt-4 mb-0">
+                                        {% include social_icons.html %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Author -->
+
+                    <!-- SEARCH -->
+                    <div class="widget mt-4 pt-2">
+                        <div class="p-4 rounded shadow">
+                            <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Búsqueda</h6>
+                            <div id="search2" class="widget-search mt-4 mb-0">
+                                <form role="search" method="get" id="searchform" class="searchform">
+                                    <div>
+                                        <input type="text" class="border rounded" name="s" id="search-input" placeholder="Buscar palabras clave...">
+                                        <input type="submit" id="searchsubmit" value="Buscar">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SEARCH -->
+
+                    <!-- CATAGORIES -->
+                    <div class="widget mt-4 pt-2">
+                        <div class="p-4 rounded shadow">
+                            <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Categorías</h6>
+                            <ul class="list-unstyled mt-4 mb-0 catagories">
+                                {% assign sortedCategories = site.categories | sort %}
+                                {% for category in sortedCategories %}
+                                {% assign cat4url = category[0] | remove:' ' | downcase | slugify:"latin" %}
+                                <li class="d-flex justify-content-between"><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}">{{ category[0] }}</a> <span>{{ category[1].size }}</span></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- CATAGORIES -->
+
+                    <!-- RECENT POST -->
+                    <div class="widget mt-4 pt-2">
+                        <div class="p-4 rounded shadow">
+                            <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Últimos Post</h6>
+                            <div class="mt-4">
+                                {% for post in site.posts limit:3 %}
+                                <div class="clearfix d-flex align-items-center post-recent">
+                                    <div class="post-recent-thumb"> <a href="{{post.url | prepend: site.baseurl}}"> <img alt="img" src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded"></a></div>
+                                    <div class="post-recent-content"><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a><span class="text-muted">{{post.date | date: '%Y, %b %d'}}</span></div>
+                                </div>
+                                {% endfor%}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RECENT POST -->
+
+                    <!-- TAG CLOUDS -->
+                    <div class="widget mt-4 pt-2 text-center">
+                        <div class="p-4 rounded shadow">
+                            <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded">Tags Cloud</h6>
+                            <div class="tagcloud mt-4">
+                                <a href="jvascript:void(0)" class="rounded">Business</a>
+                                <a href="jvascript:void(0)" class="rounded">Finance</a>
+                                <a href="jvascript:void(0)" class="rounded">Marketing</a>
+                                <a href="jvascript:void(0)" class="rounded">Fashion</a>
+                                <a href="jvascript:void(0)" class="rounded">Bride</a>
+                                <a href="jvascript:void(0)" class="rounded">Lifestyle</a>
+                                <a href="jvascript:void(0)" class="rounded">Travel</a>
+                                <a href="jvascript:void(0)" class="rounded">Beauty</a>
+                                <a href="jvascript:void(0)" class="rounded">Video</a>
+                                <a href="jvascript:void(0)" class="rounded">Audio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TAG CLOUDS -->
+                </div>
+            </div><!--end col-->
+            <!-- END SIDEBAR -->
+        </div><!--end row-->
+    </div><!--end container-->
+</section>
+<!-- Blog -->

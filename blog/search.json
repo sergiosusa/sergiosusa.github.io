@@ -1,0 +1,11 @@
+---
+layout: none
+---
+var searchJson = [
+  {% for post in site.posts %}
+  [
+    "{{ post.title | escape }}",
+    "{{ site.baseurl }}{{ post.url }}",
+  ] {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

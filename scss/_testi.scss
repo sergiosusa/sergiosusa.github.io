@@ -1,0 +1,28 @@
+//
+// testi.scss
+//
+.client-review {
+    padding: 30px 30px 40px 30px;
+    .reviewer {
+        .content {
+            .name {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.tns-nav {
+    text-align: center;
+    button {
+        width: 5px;
+        height: 8px;
+        border-radius: 30px;
+        background: transparent;
+        border: 2px solid $primary;
+        margin: 2px;
+        &.tns-nav-active {
+            background: $primary !important;
+        }
+    }
+}
