@@ -37,3 +37,7 @@ La idea al activar esta opción es guardar y reutilizar resoluciones de conflict
 - Resolver los conflictos (quedarán guardados).
 - Revertir la unión de las ramas. ($ git reset --hard HEAD^)
 
+Ahora imaginemos que es hora de hacer el merge final, siguiendo con el procedimiento normal, el rerere sería capaz de aplicar las resoluciones antes realizadas durante meses y completar la que antes era una tarea interminable y riesgosa en cuestión de minutos.
+
+
+
