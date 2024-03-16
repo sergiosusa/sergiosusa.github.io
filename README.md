@@ -6,9 +6,7 @@ Bienvenidos al código fuente de mi blog personal, usa Jekyll como generador est
 
 ## Redes Sociales
 - [Twitter](https://twitter.com/sergiosusa)
-- [Instagram](https://www.instagram.com/sergiosusa/)
 - [Github](https://github.com/sergiosusa)
-- [Facebook](https://www.facebook.com/sergiosusa)
 - [Youtube](https://www.youtube.com/sergiosusa)
 
 # Poscast

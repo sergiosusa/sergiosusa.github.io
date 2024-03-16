@@ -1,19 +1,19 @@
 title: Hola, soy Sergio Susa. Bienvenidos a mi página web.
 author: Sergio Susa
-iam: 💻 IT Engineer • 👨‍🏫 Professor • 🎤 Podcaster • ✍🏼 Writer • 💸 Investor • 💡 Entrepreneur • 👶🏼 Father
+iam: 💻 IT Engineer • 👶🏼 Father • 👨‍🏫 Professor • 🎤&nbsp;Podcaster • ✍🏼&nbsp;Writer • 💸&nbsp;Investor&nbsp;•&nbsp;💡&nbsp;Entrepreneur
 email: sergio@sergiosusa.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Bienvenidos a mi página web personal, acá encontrarás información relevante sobre mi y además 
-  algunas mis vivencias y en general todo lo que creo que va a ser de interés general.
-keywords: tecnología,programación,javascript,php,java,phyton,ingeniería,susa
+  Bienvenidos a mi página web personal, acá encontraréis todo lo que considero que podría ser de interés general y 
+  algunos temas “friquis” que me gustaría compartir.
+keywords: tecnología,programación,javascript,php,java,phyton,ingeniería,susa,books
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sergiosusa.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_url: https://twitter.com/sergiosusa
 github_url:  https://github.com/sergiosusa
-facebook_url: https://www.facebook.com/sergiosusa
+facebook_url:
 linkedin_url: https://www.linkedin.com/in/sergiosusa
-instagram_url: https://www.instagram.com/sergiosusa
+instagram_url:
 
 # Projects
 podcast-personal-title: ¿Qué me estás container?

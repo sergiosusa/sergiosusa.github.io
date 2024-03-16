@@ -1,5 +1,15 @@
-<li class="list-inline-item"><a href="{{ site.github_url }}" target="_blank"><i class="mdi mdi-github-circle"></i></a></li>
-<li class="list-inline-item"><a href="{{ site.linkedin_url }}" target="_blank"><i class="mdi mdi-linkedin"></i></a></li>
-<li class="list-inline-item"><a href="{{ site.instagram_url }}" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
-<li class="list-inline-item"><a href="{{ site.twitter_url }}" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
-<li class="list-inline-item"><a href="{{ site.facebook_url }}" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
+{% if site.github_url %}
+    <li class="list-inline-item"><a href="{{ site.github_url }}" target="_blank"><i class="mdi mdi-github-circle"></i></a></li>
+{% endif %}
+{% if site.linkedin_url %}
+    <li class="list-inline-item"><a href="{{ site.linkedin_url }}" target="_blank"><i class="mdi mdi-linkedin"></i></a></li>
+{% endif %}
+{% if site.instagram_url %}
+    <li class="list-inline-item"><a href="{{ site.instagram_url }}" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
+{% endif %}
+{% if site.twitter_url %}
+    <li class="list-inline-item"><a href="{{ site.twitter_url }}" target="_blank"><i class="mdi mdi-twitter"></i></a></li>
+{% endif %}
+{% if site.facebook_url %}
+    <li class="list-inline-item"><a href="{{ site.facebook_url }}" target="_blank"><i class="mdi mdi-facebook"></i></a></li>
+{% endif %}
