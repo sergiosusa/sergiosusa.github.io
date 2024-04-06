@@ -39,9 +39,9 @@ escenario haciéndolo “trivial”.
 La opción mágica —que no es tan mágica— se llama "reuse recorded resolution" más conocida por sus siglas “rerere”. Para
 activarla hay que cambiar la siguiente configuración:
 
-```bash
+{% highlight bash %}
 $ git config --global rerere.enabled true
-```
+{% endhighlight %}
 
 Al activar esta opción GIT guardará y reutilizará las resoluciones de conflictos de forma automática, el procedimiento
 entonces para arreglar la problemática planteada es:
