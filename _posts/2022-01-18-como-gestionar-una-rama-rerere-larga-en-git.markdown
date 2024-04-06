@@ -4,7 +4,7 @@ title: ¿Cómo gestionar una Rama Rerere-larga en Git?
 date: 2022-04-18 10:00:00 +0300
 description: Cuando empecé a usar entornos Linux me encantó su terminal, su potencia, versatilidad, rapidez, entre otras características. Razón por la cual siempre intentaré buscar una solución por línea de comandos y no por el entorno gráfico.
 img: como-gestionar-una-rama-rerere-larga-en-git.webp
-img-cover: como-gestionar-una-rama-rerere-larga-en-git.webp
+img-cover: como-gestionar-una-rama-rerere-larga-en-git-cover.webp
 tags: [git, rerere]
 category: Tecnología
 ---
