@@ -44,6 +44,22 @@ Lo segundo es aprender las partes de un user script, para eso empezaremos viendo
 })();
 {% endhighlight %}
 
+``` javascript
+// ==UserScript==
+// @name         New Userscript
+// @namespace    https://sergiosusa.com
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://github.com/sergiosusa/my-user-scripts/edit/master/README.md
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    // Your code here...
+})();
+```
 
 El ejemplo anterior se divide en dos partes, la "cabecera" o Metadata Block (delimitado por el tag
 ``// ==UserScript==`` y ``// ==/UserScript==`` ) y el resto que es el contenido.
