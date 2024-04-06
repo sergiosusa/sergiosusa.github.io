@@ -27,7 +27,7 @@ Lo primero es instalar la extensión del navegador que nos dejará agregar y eje
 
 Lo segundo es aprender las partes de un user script, para eso empezaremos viendo uno vacío y luego dejaré un ejemplo real.
 
-```javascript
+{% highlight javascript %}
 // ==UserScript==
 // @name         New Userscript
 // @namespace    https://sergiosusa.com
@@ -42,7 +42,8 @@ Lo segundo es aprender las partes de un user script, para eso empezaremos viendo
     'use strict';
     // Your code here...
 })();
-```
+{% endhighlight %}
+
 
 El ejemplo anterior se divide en dos partes, la "cabecera" o Metadata Block (delimitado por el tag
 ``// ==UserScript==`` y ``// ==/UserScript==`` ) y el resto que es el contenido.
