@@ -27,23 +27,6 @@ Lo primero es instalar la extensión del navegador que nos dejará agregar y eje
 
 Lo segundo es aprender las partes de un user script, para eso empezaremos viendo uno vacío y luego dejaré un ejemplo real.
 
-{% highlight javascript %}
-// ==UserScript==
-// @name         New Userscript
-// @namespace    https://sergiosusa.com
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://github.com/sergiosusa/my-user-scripts/edit/master/README.md
-// @grant        none
-// ==/UserScript==
-
-(function() {
-    'use strict';
-    // Your code here...
-})();
-{% endhighlight %}
-
 ``` javascript
 // ==UserScript==
 // @name         New Userscript
