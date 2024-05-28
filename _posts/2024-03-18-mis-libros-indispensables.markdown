@@ -28,7 +28,8 @@ Internet se ha convertido en una fuente inagotable de conocimiento en todos los 
 He decidido hacer una recopilación de los que yo creo que son libros indispensables para leer y consultar:
 
 | :----: | :--- |
-| <img src="https://m.media-amazon.com/images/I/61q+XwMbDIL._SY522_.jpg" alt="Clean Agile: Back to Basics (Robert C. Martin Series)"/> | [Clean Agile: Back to Basics (Robert C. Martin Series) ](https://www.amazon.es/gp/product/0135781868?tag=sergio.susa-21) |
+| <img src="https://m.media-amazon.com/images/I/81ZcfafjvoL._SY522_.jpg" alt="Agile Estimating and Planning (Robert C. Martin Series)"/> | [Agile Estimating and Planning (Robert C. Martin Series)](https://www.amazon.es/gp/product/0131479415?tag=sergio.susa-21) |
+| <img src="https://m.media-amazon.com/images/I/61q+XwMbDIL._SY522_.jpg" alt="Clean Agile: Back to Basics (Robert C. Martin Series)"/> | [Clean Agile: Back to Basics (Robert C. Martin Series)](https://www.amazon.es/gp/product/0135781868?tag=sergio.susa-21) |
 | <img src="https://m.media-amazon.com/images/I/61r4tYVsRVL._SY522_.jpg" alt="Clean Architecture (Robert C. Martin)"/> | [Clean Architecture (Robert C. Martin)](https://www.amazon.es/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164?tag=sergio.susa-21) |
 | <img src="https://m.media-amazon.com/images/I/51E2055ZGUL._SY522_.jpg" alt="Clean Code (Robert C. Martin)"/> | [Clean Code (Robert C. Martin)](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882?tag=sergio.susa-21) |
 | <img src="https://m.media-amazon.com/images/I/61Pk6qD6stL._SY522_.jpg" alt="Clean Craftsmanship: Disciplines, Standards, and Ethics (Robert C. Martin Series)"/> | [Clean Craftsmanship: Disciplines, Standards, and Ethics (Robert C. Martin Series)](https://www.amazon.es/gp/product/013691571X?tag=sergio.susa-21) |
