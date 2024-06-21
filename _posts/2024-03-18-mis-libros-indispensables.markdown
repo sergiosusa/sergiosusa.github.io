@@ -14,12 +14,21 @@ window.addEventListener('load', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const book = urlParams.get('book');
 
-    if (book){
+    if (book) {
         let anchor = document.querySelector("a[href='" + book + "']");
         if(anchor){
             anchor.click();
         }
     }
+
+    const redirect = urlParams.get('a');
+
+    if (redirect) {
+        let anchor = document.querySelector("#redirect");
+        anchor.href = redirect;
+        anchor.click();
+    }
+
 });
 </script>
 
@@ -65,6 +74,8 @@ He decidido hacer una recopilación de los que yo creo que son libros indispensa
 | <img src="https://m.media-amazon.com/images/I/71UAsPBdgdL._SY522_.jpg" alt="Working Effectively with Legacy Code"/> | [Working Effectively with Legacy Code](https://www.amazon.es/Working-Effectively-Legacy-Robert-Martin/dp/0131177052?tag=sergio.susa-21) |
 {:.book-table}
 <br/>
+
+<a id="redirect" href=""></a>
 
 <blockquote class="blockquote mt-3 p-3">
    <p class="text-muted mb-0 font-italic">Este sitio es un participante del Programa de Afiliados de Amazon. Los enlaces pueden generar comisiones por compras y no afectan al precio final. Al hacer clic en ellos, el usuario acepta los términos del programa.</p>
