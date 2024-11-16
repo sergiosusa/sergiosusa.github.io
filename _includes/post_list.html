@@ -1,4 +1,3 @@
-<!-- Blog -->
 <section class="section">
     <div class="container">
         <div class="row">
@@ -7,7 +6,7 @@
                     {% for post in include.posts %}
                     <div class="col-lg-6 col-12 mb-4 pb-2">
                         <div class="blog-post rounded shadow">
-                            <img src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded-top" alt="">
+                            <img src="{{ site.baseurl }}/assets/images/blog/{{ post.img-cover }}" class="img-fluid rounded-top" alt="">
                             <div class="content pt-4 pb-4 p-3">
                                 <ul class="list-unstyled d-flex justify-content-between post-meta">
                                     <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
@@ -19,15 +18,15 @@
                                     <li><a href="{{post.url | prepend: site.baseurl}}" class="text-dark">Leer más <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
                                     <li><i class="mdi mdi-calendar-edit me-1"></i>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;</li>
                                 </ul>
-                            </div><!--end content-->
-                        </div><!--end blog post-->
-                    </div><!--end col-->
+                            </div>
+                        </div>
+                    </div>
                     {% endfor %}
 
                     {% include pagination.html %}
 
-                </div><!--end row-->
-            </div><!--end col-->
+                </div>
+            </div>
 
             <!-- START SIDEBAR -->
             <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
@@ -57,7 +56,7 @@
                             <div id="search2" class="widget-search mt-4 mb-0">
                                 <form role="search" method="get" id="searchform" class="searchform">
                                     <div>
-                                        <input type="text" class="border rounded" name="s" id="search-input" placeholder="Buscar palabras clave...">
+                                        <input type="text" class="border rounded" name="search" id="search-input" placeholder="Buscar palabras clave..." />
                                         <input type="submit" id="searchsubmit" value="Buscar">
                                     </div>
                                 </form>
@@ -88,7 +87,7 @@
                             <div class="mt-4">
                                 {% for post in site.posts limit:3 %}
                                 <div class="clearfix d-flex align-items-center post-recent">
-                                    <div class="post-recent-thumb"> <a href="{{post.url | prepend: site.baseurl}}"> <img alt="img" src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded"></a></div>
+                                    <div class="post-recent-thumb"> <a href="{{post.url | prepend: site.baseurl}}"> <img alt="img" src="{{ site.baseurl }}/assets/images/blog/{{ post.img-cover }}" class="img-fluid rounded"></a></div>
                                     <div class="post-recent-content"><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a><span class="text-muted">{{post.date | date: '%Y, %b %d'}}</span></div>
                                 </div>
                                 {% endfor%}
@@ -117,9 +116,8 @@
                     </div>-->
                     <!-- TAG CLOUDS -->
                 </div>
-            </div><!--end col-->
+            </div>
             <!-- END SIDEBAR -->
-        </div><!--end row-->
-    </div><!--end container-->
+        </div>
+    </div>
 </section>
-<!-- Blog -->

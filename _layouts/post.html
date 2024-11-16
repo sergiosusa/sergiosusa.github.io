@@ -2,8 +2,7 @@
 layout: main
 ---
 
-<!-- Home Start -->
-<section class="bg-half d-table w-100" style="background: url('{{ "/assets/images/blog/" | prepend: site.baseurl | append : page.img}}') center center;">
+<section class="bg-half d-table w-100" style="background: url('{{ site.baseurl }}/assets/images/blog/{{ page.img }}') center center;" >
     <div class="bg-overlay bg-overlay-white"></div>
     <div class="container">
         <div class="row mt-5 justify-content-center">
@@ -20,13 +19,11 @@ layout: main
                         <li><a class="text-primary" href="{{ site.baseurl }}/blog/" >Blog</a></li>
                     </ul>
                 </div>
-            </div>  <!--end col-->
-        </div><!--end row-->
-    </div> <!--end container-->
-</section><!--end section-->
-<!-- Home End -->
+            </div>
+        </div>
+    </div>
+</section>
 
-<!-- Blog STart -->
 <section class="section">
     <div class="container-lg">
         <div class="row">
@@ -38,9 +35,8 @@ layout: main
                     </div>
                 </div>
             </div>
-            <!-- BLog End -->
-        </div><!--end row-->
-    </div><!--end container-->
+        </div>
+    </div>
 
     <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
@@ -54,11 +50,10 @@ layout: main
                         </div>
                     </div>
                 </div>
-            </div><!--end col-->
-        </div><!--end row-->
+            </div>
+        </div>
 
         <div class="row">
-
             {% assign randomPost = "" | split: ',' %}
             {% for category in site.categories %}
                 {% if category[0] == page.category %}
@@ -75,24 +70,22 @@ layout: main
             {% for post in randomPost %}
             <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                 <div class="blog-post rounded shadow">
-                    <img src="{{"/assets/images/blog/" | prepend: site.baseurl | append : post.img-cover}}" class="img-fluid rounded-top" alt="">
+                    <img src="{{ site.baseurl }}/assets/images/blog/{{ post.img-cover }}" class="img-fluid rounded-top" alt="">
                     <div class="content pt-4 pb-4 p-3">
                         <ul class="list-unstyled d-flex justify-content-between post-meta">
                             <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
                             {% assign cat4url = post.category | remove:' ' | downcase | slugify:"latin" %}
                             <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}" class="text-dark">{{ post.category }}</a></li>
                         </ul>
-                        <h5 class="mb-3"><a href="{{post.url | prepend: site.baseurl}}" class="title text-dark"> {{ post.title }}</a></h5>
+                        <h5 class="mb-3"><a href="{{ post.url | prepend: site.baseurl }}" class="title text-dark"> {{ post.title }}</a></h5>
                         <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
-                            <li><a href="{{post.url | prepend: site.baseurl}}" class="text-dark">Leer más <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
+                            <li><a href="{{ post.url | prepend: site.baseurl }}" class="text-dark">Leer más <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
                             <li><i class="mdi mdi-calendar-edit me-1"></i>{{post.date | date: '%Y, %b %d'}}</li>
                         </ul>
-                    </div><!--end content-->
-                </div><!--end blog post-->
-            </div><!--end col-->
+                    </div>
+                </div>
+            </div>
             {% endfor %}
-
-        </div><!--end row-->
-    </div><!--end container-->
+        </div>
+    </div>
 </section>
-<!-- Blog -->

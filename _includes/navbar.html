@@ -1,44 +1,42 @@
-<!-- Navbar Start -->
 <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     <div class="container">
         <a class="navbar-brand" href="{{site.baseurl}}/">
-            <img src="{{site.baseurl}}/assets/images/logo.png" class="l-dark" height="35" alt="">
+            <img src="{{site.baseurl}}/assets/images/logo.png" class="l-dark" height="35" alt="Sergio Susa - Logo">
             {% if page.url contains '/blog/' or page.layout == 'post' %}
-            <img src="{{site.baseurl}}/assets/images/logo.png" class="l-light" height="35" alt="">
+            <img src="{{site.baseurl}}/assets/images/logo.png" class="l-light" height="35" alt="Sergio Susa - Logo">
             {% else %}
-            <img src="{{site.baseurl}}/assets/images/logo-light.png" class="l-light" height="35" alt="">
+            <img src="{{site.baseurl}}/assets/images/logo-light.png" class="l-light" height="35"
+                 alt="Sergio Susa - Logo">
             {% endif %}
-
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span data-feather="menu" class="fea icon-md"></span>
-        </button><!--end button-->
-
+        </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul id="navbar-navlist" class="navbar-nav {% if page.url contains '/blog/' or page.layout == 'post' %} navbar-nav-link {% endif %} mx-auto">
+            <ul id="navbar-navlist"
+                class="navbar-nav {% if page.url contains '/blog/' or page.layout == 'post' %} navbar-nav-link {% endif %} mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Inicio</a>
-                </li><!--end nav item-->
+                </li>
                 {% if page.url != '/blog/' and page.layout != 'post' and page.layout!= 'category' %}
                 <li class="nav-item">
                     <a class="nav-link" href="#about">Sobre Mi</a>
-                </li><!--end nav item-->
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Proyectos</a>
-                </li><!--end nav item-->
+                </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="/blog">Blog</a>
-                </li><!--end nav item-->
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services">Contacto</a>
-                </li><!--end nav item-->
+                </li>
                 {% endif %}
             </ul>
-            {{  }}
             <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon {% if page.url != '/blog/' and page.layout != 'post' and page.layout!= 'category' %} light-social-icon {% endif %}">
                 {% include social_icons.html %}
             </ul>
         </div>
-    </div><!--end container-->
-</nav><!--end navbar-->
-<!-- Navbar End -->
+    </div>
+</nav>

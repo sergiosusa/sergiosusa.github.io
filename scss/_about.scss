@@ -5,10 +5,10 @@
     &:before {
         content: '';
         position: absolute;
-        top: 0px;
+        top: 0;
         right: 3%;
         left: 3%;
-        bottom: 0%;
+        bottom: 0;
         border-radius: 7px;
         border: 16px solid $gray-200;
     }

@@ -3,7 +3,6 @@ layout: main
 title: Blog
 ---
 
-<!-- Home Start -->
 <section class="bg-half d-table w-100" style="background: url('{{site.baseurl}}/assets/images/blog/blog-header.webp')center center;">
     <div class="bg-overlay bg-overlay-white"></div>
     <div class="container">
@@ -18,10 +17,9 @@ title: Blog
                         </li>
                     </ul>
                 </div>
-            </div>  <!--end col-->
-        </div><!--end row-->
-    </div> <!--end container-->
-</section><!--end section-->
-<!-- Home End -->
+            </div>
+        </div>
+    </div>
+</section>
 
-{% include post_content.html posts=paginator.posts %}
+{% include post_list.html posts=paginator.posts %}
