@@ -1,6 +1,6 @@
 title: Hola, soy Sergio Susa. Bienvenidos a mi página web.
 author: Sergio Susa
-iam: 💻 IT Engineer • 👶🏼 Father • 👨‍🏫 Professor • 🎤&nbsp;Podcaster • ✍🏼&nbsp;Writer • 💸&nbsp;Investor&nbsp;•&nbsp;💡&nbsp;Entrepreneur
+iam: 💻 Software Engineer • 👶🏼 Father • 👨‍🏫 Professor • 🎤&nbsp;Podcaster • ✍🏼&nbsp;Writer • 💸&nbsp;Investor&nbsp;•&nbsp;💡&nbsp;Entrepreneur
 email: sergio@sergiosusa.com
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenidos a mi página web personal, acá encontraréis todo lo que considero que podría ser de interés general y 
@@ -29,7 +29,7 @@ website-expertodesteam-url: https://expertodesteam.com
 website-expertodesteam-image: experto-de-steam-website.webp
 
 # Tracker
-analytics: UA-65020023-1 # Google Analytics
+analytics: G-XE9XJMFZ47 # Google Analytics
 
 # Build settings
 theme: minima
