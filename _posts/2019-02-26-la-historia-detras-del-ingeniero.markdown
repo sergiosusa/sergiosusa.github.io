@@ -24,6 +24,22 @@ más adelante esto salvaría mi vida en varias ocasiones luego de dañar el orde
 
 <div class="push-right"><img alt="mi primer ordenador a los 6 años" src="{{site.baseurl}}/assets/images/blog/la-historia-detras-del-ingeniero-2.webp" /></div>
 
+Explorando el nuevo y flamante Windows encontré un grupo de programas agrupado en una carpeta que inmediatamente llamó
+mi atención: "Juegos". Solitario, Buscaminas y corazones fueron mis primeros tres juegos y la puerta de entrada a una
+afición que dura hasta hoy.
+
+Durante esta época en una visita a un supermercado cerca a casa, vi por primera vez una revista PC-PLAYER que incluía
+un CD, mi madre me la compró luego de insistirle como un condenado. Llegar a casa, lograr instalar y jugar un par de
+demos entre los cuales estaba el afamado Quake reafirmó mi interés en el mundo de los videojuegos.
+
+Poco después, durante una navidad, mi padre viendo mi pasión por los videojuegos, trajo a casa una Nintendo
+Famicom junto con unos cuentos cartuchos. Este momento fue decisivo en mi vida, fue cuando encontré una de mis mayores
+aficiones, los videojuegos.
+Durante años jugué una cantidad insana de clásicos: Mario Bros, Excitebike, Ice Climber, Donkey Kong, Urban Champion,
+Ballon Fight, Kung Fu, entre otros. Pasé por una NES y finalmente llegue a la consola que sería mi favorita durante
+años, la PlayStation, los vicios que me pegue durante ese tiempo fueron de lejos los mejores, aprendí a ser
+constante, paciente, analítico, arriesgado y a la vez prudente,
+
 Los años pasaron y seguí metido en todo este mundo tecnológico, apoyado por mis padres que siempre intentaron darme lo
 necesario para suplir mi curiosidad que, a largo plazo, causaría que mi gusto por los ordenadores influyera en la
 decisión más importante para un recién salido del colegio: ¿qué voy a estudiar? Para sorpresa de mis padres y
