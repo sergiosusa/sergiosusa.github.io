@@ -6,7 +6,7 @@ description: De acá salimos todos haciendo scripts.
 img: como-se-hace-un-userscript.webp
 img-cover: como-se-hace-un-userscript-cover.webp
 tags: [programación,userscript,javascript]
-category: Tecnología
+category: Desarrollo de Software
 ---
 
 Como lo comenté en el episodio # 1 de mi podcast (¿Qué me estás container?), he grabado un video enseñando como se estructura un userscript, como se instala en chrome y en otros navegadores y el potencial que tiene esta herramienta en el día a día.

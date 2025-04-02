@@ -10,7 +10,7 @@
                             <div class="content pt-4 pb-4 p-3">
                                 <ul class="list-unstyled d-flex justify-content-between post-meta">
                                     <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
-                                    {% assign cat4url = post.category | remove:' ' | downcase | slugify:"latin" %}
+                                    {% assign cat4url = post.category | replace: ' ', '-' | downcase | slugify:"latin" %}
                                     <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}" class="text-dark">{{ post.category }}</a></li>
                                 </ul>
                                 <h5 class="mb-3"><a href="{{post.url | prepend: site.baseurl}}" class="title text-dark">{{post.title}}</a> </h5>
@@ -22,16 +22,14 @@
                         </div>
                     </div>
                     {% endfor %}
-
                     {% include pagination.html %}
-
                 </div>
             </div>
 
             <!-- START SIDEBAR -->
             <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <div class="sidebar sticky-sidebar">
-                    <!-- Author -->
+                    <!-- AUTHOR -->
                     <div class="widget">
                         <div class="p-4 rounded shadow">
                             <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Autor</h6>
@@ -47,7 +45,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Author -->
+                    <!-- AUTHOR -->
 
                     <!-- SEARCH -->
                     <div class="widget mt-4 pt-2">
@@ -65,20 +63,20 @@
                     </div>
                     <!-- SEARCH -->
 
-                    <!-- CATAGORIES -->
+                    <!-- CATEGORIES -->
                     <div class="widget mt-4 pt-2">
                         <div class="p-4 rounded shadow">
                             <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Categorías</h6>
                             <ul class="list-unstyled mt-4 mb-0 catagories">
                                 {% assign sortedCategories = site.categories | sort %}
                                 {% for category in sortedCategories %}
-                                {% assign cat4url = category[0] | remove:' ' | downcase | slugify:"latin" %}
+                                {% assign cat4url = category[0] | replace: ' ', '-' | downcase | slugify:"latin" %}
                                 <li class="d-flex justify-content-between"><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}">{{ category[0] }}</a> <span>{{ category[1].size }}</span></li>
                                 {% endfor %}
                             </ul>
                         </div>
                     </div>
-                    <!-- CATAGORIES -->
+                    <!-- CATEGORIES -->
 
                     <!-- RECENT POST -->
                     <div class="widget mt-4 pt-2">

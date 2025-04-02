@@ -6,7 +6,7 @@ description: El autoaprendizaje es la mejor herrameinta para estar al día, voy 
 img: mis-libros-indispensables-cover.webp
 img-cover: mis-libros-indispensables-small-cover.webp
 tags: [libros,autoaprendizaje]
-category: Tecnología
+category: Desarrollo de Software
 ---
      
 <script>

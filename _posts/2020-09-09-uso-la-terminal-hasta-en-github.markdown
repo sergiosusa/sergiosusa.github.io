@@ -6,7 +6,7 @@ description: Cuando empecé a usar entornos Linux me encantó su terminal, su po
 img: uso-la-terminal-hasta-en-github.webp
 img-cover: uso-la-terminal-hasta-en-github-cover.webp
 tags: [github, git, terminal, cli]
-category: Tecnología
+category: Desarrollo de Software
 ---
 
 Cuando empecé a usar entornos Linux me encantó su terminal, su potencia, versatilidad, rapidez, entre otras características. Razón por la cual siempre intentaré buscar una solución por línea de comandos y no por el entorno gráfico. 

@@ -6,7 +6,7 @@ description: La alta demanda de informáticos en el mercado hace que las empresa
 img: informatica-con-p-de-perk.webp
 img-cover: informatica-con-p-de-perk-cover.webp
 tags: [perks,informática]
-category: Tecnología
+category: Opinión
 ---
 
 Hace años se veía a los informáticos como seres antisociales que estaban rodeados de ordenadores, pantallas y, además, eran confinados a zulos sin posibilidad de ver la luz. Era la época en que las empresas más tecnológicas eran las telefónicas y los bancos y no existía casi nada de lo que usamos a diario actualmente. 
@@ -30,9 +30,9 @@ Para identificar un “Perk” verdadero, hay que plantearse las siguientes preg
 - ¿Simplifica o mejora algo en mi vida?
 - ¿Me ahorra dinero y/o tiempo?
 
-Seguramente habrían muchas más pero, para mí, si la respuesta de por lo menos una de ellas no es afirmativa, significa que no es un beneficio real, si no, una forma de hacerte trabajar más tiempo y exprimirte al máximo. 
+Seguramente habría muchas más, pero, para mí, si la respuesta de por lo menos una de ellas no es afirmativa, significa que no es un beneficio real, si no, una forma de hacerte trabajar más tiempo y exprimirte al máximo. 
 
-Obviamente esto puede ser subjetivo y varía según los intereses personales, por ejemplo, si hay alguien que mantener su barba es un pilar fundamental en su vida y ocupa un porcentaje muy alto de su tiempo libre en ello, es claro que tener un barbero disponible en horas laborales es realmente beneficioso, pero ¿cumple a cabalidad todas las preguntas antes mencionadas? Hay una de ellas que peligra, la primera, si en algún caso tiene que “retribuir” con trabajo extra este beneficio, creo que tenemos un claro ejemplo de un falso-positivo. 
+Obviamente, esto puede ser subjetivo y varía según los intereses personales, por ejemplo, si hay alguien que mantener su barba es un pilar fundamental en su vida y ocupa un porcentaje muy alto de su tiempo libre en ello, es claro que tener un barbero disponible en horas laborales es realmente beneficioso, pero ¿cumple a cabalidad todas las preguntas antes mencionadas? Hay una de ellas que peligra, la primera, si en algún caso tiene que “retribuir” con trabajo extra este beneficio, creo que tenemos un claro ejemplo de un falso-positivo. 
 
 Pensemos cuáles son generalmente los verdaderos “Perks”, cito algunos: seguro médico, retribución flexible, horario flexible, trabajo remoto, formación continua, etc. Todos con un denominador común: la búsqueda de un bienestar real y plausible hacia el currante.
 
