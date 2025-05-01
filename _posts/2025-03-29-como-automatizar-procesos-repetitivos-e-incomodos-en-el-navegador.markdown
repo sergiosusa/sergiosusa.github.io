@@ -11,9 +11,27 @@ category: Desarrollo de Software
 ---
 
 Han pasado años desde que empecé a usar los userscripts, primero, como hobby, al automatizar cosas que quería hacer en
-el navegador de forma diaria con el objetivo de simplificar su ejecución a un simple clic o, agregando alguna funcionalidad
-que yo creía que era indispensable. Pronto, me di cuenta de que esta herramienta es útil en entornos laborales, por este motivo, creo que
+el navegador de forma diaria con el objetivo de simplificar su ejecución a un simple clic o, agregando alguna
+funcionalidad
+que yo creía que era indispensable. Pronto, me di cuenta de que esta herramienta es útil en entornos laborales, por este
+motivo, creo que
 todos aquellos que usáis algún navegador podréis sacar provecho de esta tecnología.
+
+Antés de explicar en detalle esta tecnología, me gustaría mostrar un caso real implementado en el proyecto del cual soy
+parte en Seat Code. El proyecto consta de más de quince microservicios que están alojados en una organización con unos
+1.7k repositorios, aunque la interfaz que ofrece github está bien, no es la más óptima para lo que diariamente
+necesitábamos.
+
+Decidí crear un nuevo panel con un resumen de nuestros proyectos y accesos directos a los apartados que más usabamos.
+Así quedó:
+
+<div class="center-text">
+    <img height="200px" alt="ejemplo real de implementación del userscript" src="{{site.baseurl}}/assets/images/blog/como-automatizar-procesos-repetitivos-e-incomodos-en-el-navegador-3.webp" />
+</div>
+<br />
+
+Calcular cuanto tiempo me ahorra tener este nuevo panel es complicado, pero estimo que por lo bajo, me ahorra la mitad
+del cada vez que tengo que acceder y no entro pocas veces al día.
 
 Lo primero que tenéis que saber es que el lenguaje utilizado es javascript, por lo cual, la extensión de estos archivos
 serán: `.user.js`, lo segundo, es instalar una extensión para que el contenido de estos archivos sean
