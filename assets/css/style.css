@@ -2377,4 +2377,83 @@ ul .t-ltr-dark {
   width: 100px;
 }
 
+.timeline {
+    border-left: 3px solid #ccc;
+    margin: 2rem 0;
+    padding-left: 1rem;
+}
+
+.event {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.event::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background: #6c757d;
+    border-radius: 50%;
+}
+
+.event-content {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.event img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-details h3 {
+    margin: 0 0 0.3rem;
+}
+
+.event-details time {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+.image-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease;
+}
+.image-modal.show {
+  display: flex;
+}
+
+.event.festival::before {
+  background: #f28c8c; /* púrpura suave */
+}
+
 /*# sourceMappingURL=style.css.map */
