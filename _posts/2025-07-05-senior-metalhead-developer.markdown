@@ -16,18 +16,16 @@ diferente al género que más me gusta, el **METAL** 🤘.
 
 El proceso de descubrimiento músical siempre va de los más mainstream o lo más extremo, yo no sería la excepción. El
 primer album original que recuerdo haber tenido fue el "Californication" (1999) de Red hot Chilli Peppers y lo compré
-con algún dinero que me regalaron un mi cumpleaños.
+con algún dinero que me regalaron un mi cumpleaños, de ahi en adelante todo fue en aumento.
 
 En esa época la forma de encontrar música era a través de un rudimentario internet a traves de AudioGalaxy, Napster,
 etc. (P2P) u otros medios más convencionales, la radio o la TV (MTV, cuando era bueno). Soñaba con ver a mis bandas
 favoritas en vivo y aunque asistí a varios festivales gratuitos, el cartel nunca fue completamente de mi agrado.
 
 Para ser sincero no recuerdo cuál fue mi primer concierto y justamente por eso hoy quiero compartir una línea de tiempo
-con todos los concierto a los que he asistido:
+con todos los conciertos y festivales a los que he asistido hasta la fecha:
 
-<div class="timeline" id="timeline">
-  <!-- Aquí JS insertará los eventos -->
-</div>
+<div class="timeline" id="timeline"></div>
 
 <script>
   const events = [
@@ -238,7 +236,7 @@ con todos los concierto a los que he asistido:
     },
     {
       name: "Judas Priest",
-      startDate: new Date("2009-11-03T00:00:00"),
+      startDate: new Date("2008-11-03T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20081103-judas-priest.jpg",
       type: "concert",
     },
@@ -270,6 +268,12 @@ con todos los concierto a los que he asistido:
       name: "Mägo de Oz + Rata Blanca + Kraken",
       startDate: new Date("2009-10-11T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20041128-mago-de-oz.jpg",
+      type: "concert",
+    },
+    {
+      name: "Mägo de Oz",
+      startDate: new Date("2009-06-15T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/image-not-found.jpg",
       type: "concert",
     },
     {
@@ -490,7 +494,7 @@ con todos los concierto a los que he asistido:
     },
     {
       name: "Tierra Santa",
-      startDate: new Date("2024-01-12T00:00:00"),
+      startDate: new Date("2024-01-19T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20240112-tierra-santa.jpg",
       type: "concert",
     },
@@ -530,10 +534,21 @@ con todos los concierto a los que he asistido:
       startDate: new Date("2009-12-04T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20091204-sagarfest.jpg",
       type: "festival",
+    },
+    {
+      name: "Inquisition",
+      startDate: new Date("2009-07-13T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20090713-inquisition.jpg",
+      type: "festival",
+    },
+    {
+      name: "Arch Enemy + Neurosis + Desecrate + AngerShield",
+      startDate: new Date("2009-04-30T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20090430-arch-enemy.jpg",
+      type: "festival",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 
-// También necesitamos actualizar la función formatDateYMD y el HTML para usar startDate
 function formatDateYMD(date) {
     const y = date.getFullYear();
     const m = String(date.getMonth() + 1).padStart(2, '0');
