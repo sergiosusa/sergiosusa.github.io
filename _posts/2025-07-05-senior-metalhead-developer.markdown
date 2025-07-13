@@ -277,6 +277,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       type: "concert",
     },
     {
+      name: "Bunbury",
+      startDate: new Date("2012-03-16T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20120316-bunbury.jpg",
+      type: "concert",
+    },
+    {
       name: "Wacken Open Air 2015",
       startDate: new Date("2015-07-30T00:00:00"),
       endDate: new Date("2015-08-01T00:00:00"),
