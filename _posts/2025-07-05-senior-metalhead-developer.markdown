@@ -167,7 +167,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2010-05-16T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20100516-angra.jpg",
       type: "concert",
-    }
+    },
     {
       name: "Angra",
       startDate: new Date("2005-09-25T00:00:00"),
