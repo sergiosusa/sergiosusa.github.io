@@ -67,6 +67,24 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       type: "concert",
     },
     {
+      name: "Gigatron",
+      startDate: new Date("2015-05-08T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20150508-gigatron.webp",
+      type: "concert",
+    },
+    {
+      name: "Korpiklaani + Chanquen + Hordethor + Hishatana",
+      startDate: new Date("2010-03-07T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20100307-korpiklaani.jpg",
+      type: "concert",
+    },
+    {
+      name: "Cannibal Corpse",
+      startDate: new Date("2010-03-07T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20100217-cannibal-corpse.jpg",
+      type: "concert",
+    },
+    {
       name: "Rhapsody + Beast In Black + Scarlet Aura",
       startDate: new Date("2018-03-18T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20180320-rhapsody.jpg",
@@ -149,11 +167,11 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2010-05-16T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20100516-angra.jpg",
       type: "concert",
-    },
+    }
     {
       name: "Angra",
-      startDate: new Date("2007-05-13T00:00:00"),
-      image: "/assets/images/blog/senior-metalhead-developer/20070513-angra.jpg",
+      startDate: new Date("2005-09-25T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20050925-angra.jpg",
       type: "concert",
     },
     {
@@ -471,7 +489,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       name: "Metalmania Colombia 2007",
       startDate: new Date("2007-06-30T00:00:00"),
       endDate: new Date("2007-07-01T00:00:00"),
-      image: "/assets/images/blog/senior-metalhead-developer/20070630-metalmania.jpeg",
+      image: "/assets/images/blog/senior-metalhead-developer/20070630-metalmania.jpg",
       type: "festival",
     },
     {
@@ -495,7 +513,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
     {
       name: "Rata Blanca + Krönös",
       startDate: new Date("2004-07-31T00:00:00"),
-      image: "/assets/images/blog/senior-metalhead-developer/image-not-found.jpg",
+      image: "/assets/images/blog/senior-metalhead-developer/20040731-rata-blanca.jpg",
       type: "concert",
     },
     {
@@ -520,7 +538,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
     {
       name: "Dark Tranquillity",
       startDate: new Date("2008-06-16T00:00:00"),
-      image: "/assets/images/blog/senior-metalhead-developer/image-not-found.jpg",
+      image: "/assets/images/blog/senior-metalhead-developer/20080616-dark-tranquillity.jpg",
       type: "concert",
     },
     {
@@ -533,6 +551,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       name: "Magö de Oz",
       startDate: new Date("2004-03-21T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/image-not-found.jpg",
+      type: "concert",
+    },
+    {
+      name: "Avalanch",
+      startDate: new Date("2010-08-15T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20100815-avalanch.jpg",
       type: "concert",
     },
     {
