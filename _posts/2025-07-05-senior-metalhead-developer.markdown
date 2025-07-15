@@ -37,7 +37,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       type: "festival",
     },    
     {
-      name: "Eluveitie + Amorphis + Dark Tranquility + Nailed To Obscurity",
+      name: "Eluveitie + Amorphis + Dark Tranquillity + Nailed To Obscurity",
       startDate: new Date("2022-11-17T15:30:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20221117-eluveitie-amorphis.jpg",
       type: "concert",
@@ -64,6 +64,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       name: "Gigatron",
       startDate: new Date("2017-06-02T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20170602-gigatron.jpg",
+      type: "concert",
+    },
+    {
+      name: "Gigatron",
+      startDate: new Date("2016-07-30T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20160730-gigatron.webp",
       type: "concert",
     },
     {
@@ -292,6 +298,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       name: "Mägo de Oz",
       startDate: new Date("2009-06-15T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/image-not-found.jpg",
+      type: "concert",
+    },
+    {
+      name: "Mägo de Oz + Débler",
+      startDate: new Date("2017-05-17T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20170517-mago-de-oz.jpg",
       type: "concert",
     },
     {
