@@ -2423,6 +2423,7 @@ ul .t-ltr-dark {
 
 .event-details h3 {
     margin: 0 0 0.3rem;
+    line-height: 1.1;
 }
 
 .event-details time {
@@ -2454,6 +2455,24 @@ ul .t-ltr-dark {
 
 .event.festival::before {
   background: #f28c8c; /* púrpura suave */
+}
+
+.year-marker {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+  color: #333;
+  position: relative;
+  padding-left: 10px;
+}
+.year-marker::before {
+  content: "";
+  position: absolute;
+  left: -13px;
+  top: 5px;
+  width: 6px;
+  height: 20px;
+  background-color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */

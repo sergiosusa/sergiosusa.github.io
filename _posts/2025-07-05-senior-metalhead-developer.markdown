@@ -599,8 +599,19 @@ function formatDateYMD(date) {
 }
 
 const timeline = document.getElementById("timeline");
+let lastYear = null;
 
 events.forEach(event => {
+    const eventYear = new Date(event.startDate).getFullYear();
+
+    if (eventYear !== lastYear) {
+        const yearDiv = document.createElement("div");
+        yearDiv.className = "year-marker";
+        yearDiv.textContent = eventYear;
+        timeline.appendChild(yearDiv);
+        lastYear = eventYear;
+      }
+
     const el = document.createElement("div");
     el.className = "event " + event.type;
     let dateDisplay = formatDateYMD(event.startDate);
