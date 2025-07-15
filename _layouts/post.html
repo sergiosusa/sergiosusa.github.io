@@ -71,7 +71,9 @@ layout: main
             {% for post in randomPost %}
             <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                 <div class="blog-post rounded shadow">
-                    <img src="{{ site.baseurl }}/assets/images/blog/{{ post.img-cover }}" class="img-fluid rounded-top" alt="">
+                    <a href="{{site.baseurl}}/blog/categoria/{{cat4url}}" class="text-dark">
+                        <img src="{{ site.baseurl }}/assets/images/blog/{{ post.img-cover }}" class="img-fluid rounded-top" alt="">
+                    </a>
                     <div class="content pt-4 pb-4 p-3">
                         <ul class="list-unstyled d-flex justify-content-between post-meta">
                             <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">{{ site.author }}</a></li>
