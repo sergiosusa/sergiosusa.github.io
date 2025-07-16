@@ -31,6 +31,19 @@ familiares, lo tenía más que claro, la respuesta fue: Ingeniería de Sistema y
 final de cuentas esto no tendría nada que ver con lo que me imaginaba, pero tengo que admitir que tal vez fue mejor de
 lo que pensaba.
 
+En el 2004 ingresé a la Universidad de los Andes, reconocida nacional e internacionalmente por su gran nivel académico
+en el área de ingeniería para estudiar lo que siempre soñe.
+
+En aquella época internet se estaba empezando a masificar y era lejano para el común de la gente, los pocos que teníamos
+internet íbamos a la vertiginosa velocidad de 56 kbps usando la línea telefónica e inutilizándola durante su uso. Los
+laboratorios del departamento de Sistemas contaban con la última tecnología disponible e internet por ADSL, era como un
+sueño.
+
+Durante los siguientes cinco años, luego de superar todas las ramas duras (física, cálculo y algo de química), llegó el
+turno para todo lo relacionado con la ingeniería. Ramos como el de "Ingeniería de Software" o el de "Fundamentos
+matemáticos de la ciencia de la Computación" crearon en mí esta incesante curiosidad por lo no aprendido y esas ganas
+por solucionar problemas complejos.
+
 Simultáneamente, combinaba mis estudios con otro de mis hobbies; la música, asistiendo a innumerables conciertos de
 muchas de mis bandas favoritas durante años e intentando aprenderme los mejores éxitos en guitarra. Recuerdo gratamente
 los que, según mi opinión, fueron los mejores conciertos en los que he estado hasta antes de llegar al viejo continente:
@@ -51,8 +64,7 @@ renombre, así que conseguir un trabajo no fue un problema. Hasta este momento, 
 PHP horrible y espaguetoso. Tengo que decir que la suerte me sonrió, justo en este momento en que estaba en una duda
 tecnológica sobre mi futuro, qué lenguaje enfocarme, coincidí en una de las pocas, si no, la única empresa en Colombia,
 que hacían y hacen hasta hoy en día, proyectos en Symfony, claro era el 1.1 o 1.2, pero este fue mi primer acercamiento
-a
-un desarrollo PHP estructurado. Dos años y medio de trabajo ahí, me dejaron un profundo conocimiento del potencial que
+a un desarrollo PHP estructurado. Dos años y medio de trabajo ahí, me dejaron un profundo conocimiento del potencial que
 este proyecto tenía.
 
 Pasé por dos empresas tecnológicamente atrasadas que me desmotivaron como ingeniero, tecnologías de hace más de 10 años,
@@ -62,7 +74,8 @@ seguir profundizando en temas de desarrollo y poniéndole algo de emoción de la
 Empecé a dirigir pequeños grupos para la realización de proyectos de envergadura mediana y encontré que tenía muchas
 falencias en dirección. Busqué alternativas para formarme y me llamó la atención una en específico, era un Máster en
 Dirección de Proyectos. Pensando que era hora de hacer un cambio en mi vida y aprovechando que no tenía nada que me
-atará además de mi familia, terminé viajando a una de las ciudades más bonitas que he conocido, llena de cultura,
+atará además de mi familia, terminé viajando a finales del 2012 a una de las ciudades más bonitas que he conocido, llena
+de cultura,
 historias, mitos y leyendas, además de personas muy valiosas y emprendedoras, hablo de Barcelona.
 
 Recordando una de mis grandes aficiones, aproveché mi llegada al viejo continente, donde me instalé a vivir, para ir a
@@ -80,5 +93,8 @@ Este proceso ha potenciado mis habilidades e inquietudes y me ha permitido abrir
 entorno de mejora tecnológica y aprendizaje continuo, muy diferente a lo que estaba acostumbrado. La utilización de
 nuevas tecnologías para el mejoramiento de procesos o simplemente el aprenderlas, han dejado en mí un legado que
 perdurará.
+
+Por último y no menos importante, conocí a mi compañera de vida quien me ha dado el regalo más bello de mi vida, una
+niña muy inteligente y amorosa.
 
 Continuará...
