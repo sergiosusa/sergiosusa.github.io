@@ -588,6 +588,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2009-04-30T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20090430-arch-enemy.webp",
       type: "festival",
+    },
+    {
+      name: "Kraken",
+      startDate: new Date("2025-07-20T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20250720-kraken.webp",
+      type: "concert",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 
