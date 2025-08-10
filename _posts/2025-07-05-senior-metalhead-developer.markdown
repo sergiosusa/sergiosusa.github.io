@@ -588,6 +588,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2009-04-30T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20090430-arch-enemy.webp",
       type: "festival",
+    },{
+      name: "Leyendas del Rock 2025",
+      startDate: new Date("2025-08-05T00:00:00"),
+endDate: new Date("2025-08-09T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20250805-leyendas-del-rock-2025.webp",
+      type: "festival",
     },
     {
       name: "Kraken",
