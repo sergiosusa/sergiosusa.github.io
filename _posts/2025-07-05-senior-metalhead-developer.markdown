@@ -591,7 +591,7 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
     },{
       name: "Leyendas del Rock 2025",
       startDate: new Date("2025-08-06T00:00:00"),
-endDate: new Date("2025-08-09T00:00:00"),
+      endDate: new Date("2025-08-09T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20250806-leyendas-del-rock-2025.webp",
       type: "festival",
     },
@@ -600,6 +600,11 @@ endDate: new Date("2025-08-09T00:00:00"),
       startDate: new Date("2025-07-20T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20250720-kraken.webp",
       type: "concert",
+    },{
+      name: "Ripollet Rock Festival",
+      startDate: new Date("2025-08-29T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20250829-ripollet-rock-festival.webp",
+      type: "festival",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 
@@ -653,7 +658,7 @@ events.forEach(event => {
 document.addEventListener("DOMContentLoaded", function () {
   
  const modal = document.getElementById("modal");
-const modalImg = document.getElementById("modal-img");
+ const modalImg = document.getElementById("modal-img");
 
   // Al hacer click en cualquier imagen con clase "expandible"
   document.addEventListener("click", function(e) {
