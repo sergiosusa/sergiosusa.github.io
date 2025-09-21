@@ -605,6 +605,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2025-08-29T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20250829-ripollet-rock-festival.webp",
       type: "festival",
+    },
+    {
+      name: "Saurom",
+      startDate: new Date("2025-09-20T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20250920-saurom.webp",
+      type: "concert",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 
