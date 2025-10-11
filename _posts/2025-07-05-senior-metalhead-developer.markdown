@@ -611,8 +611,14 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2025-09-20T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20250920-saurom.webp",
       type: "concert",
+    },
+    {
+      name: "Kraken",
+      startDate: new Date("2025-10-05T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20251005_kraken.webp",
+      type: "concert",
     }
-  ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
+  ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate)).reverse();
 
 function formatDateYMD(date) {
     const y = date.getFullYear();
