@@ -2,10 +2,9 @@
 layout: post
 title: La IA sabe lo que tú no sabes
 date: 2026-01-20 10:00:00 +0300
-description:
-  aasdasdasd
-img: la-ia-sabe-lo-que-tu-no-sabes.webp
-img-cover: la-ia-sabe-lo-que-tu-no-sabes-cover.webp
+description: '¿Por qué afirmo: "La IA sabe lo que tú no sabes"?, es una afirmación irónica que enfatiza en el que, para mí, es el problema principal del uso de la IA actualmente'
+img: la-ia-sabe-lo-que-tu-no-sabes-cover.webp
+img-cover: la-ia-sabe-lo-que-tu-no-sabes.webp
 tags: [ IA ]
 category: Opinión
 ---
