@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La IA sabe lo que tu no sabes
+title: La IA sabe lo que tú no sabes
 date: 2026-01-20 10:00:00 +0300
 description:
   aasdasdasd
@@ -14,15 +14,22 @@ La revolución de las máquinas se acerca, Skynet o IA, para los amigos, ha lleg
 hacemos (copiamos) las cosas. Estamos en el punto en que los partidarios de la IA ensalzan de manera exagerada y
 predicen que resolverá todos los problemas, incluso aquellos para los que obviamente no es la adecuada. Si eres un
 lector perspicaz, ya habrás notado que esta es una referencia a la conocida frase del libro de Abraham Maslow "The
-Psychology of Science", cito: "Si sólo tienes un martillo, todo parece un clavo".
+Psychology of Science", cito:
+
+<blockquote class="blockquote mt-3 p-3">
+    <p class="text-muted mb-0 font-italic">
+    "Si sólo tienes un martillo, todo parece un clavo".
+    </p>
+</blockquote>
 
 Llevo unos meses escuchando frases como: "La IA es capaz de hacer mi trabajo", "Uso IA para todo", "Yo no puedo vivir
 sin la IA". Desconcertante la verdad. Me recuerda a la llegada de internet, antes, si necesitabas información sobre un
 tema y eras un usuario avanzado, abrías la mítica [Encarta](https://es.wikipedia.org/wiki/Microsoft_Encarta) de lo
 contrario, ibas a la biblioteca.
 
-La información siempre ha estado disponible, lo único que se ha hecho es facilitar su acceso, hasta ahora. Los modelos
-IA actualmente son, definido por una IA:
+La información siempre ha estado disponible, lo único que se ha hecho es facilitar su acceso, hasta ahora.
+
+Los modelos IA actualmente son, definido por una IA:
 
 <blockquote class="blockquote mt-3 p-3">
     <p class="text-muted mb-0 font-italic">
@@ -53,15 +60,19 @@ Curiosamente, desde el 2020 (aproximadamente), Stack Overflow ha perdido terreno
 
 Fuente: [StackExchange Data Explorer](https://data.stackexchange.com/stackoverflow/query/1925371/new-questions-by-month#graph)
 
-Seguramente porque es mucho más fácil escribir un "prompt" y aceptar ciegamente el resultado que buscar el problema en
-plataformas especializadas e incluso libros.
+Seguramente porque es mucho más fácil escribir un "prompt" (instrucción, pregunta o solicitud que un usuario le da a una
+inteligencia artificial (IA) para que genere un resultado) y aceptar ciegamente la respuesta que buscar el problema en
+plataformas especializadas e incluso en libros.
 
-Porque digo: "La IA sabe lo que tu no sabes", 
+El problema real detrás de esta triste realidad, es que hemos cambiado un sistema colaborativo de generación de
+conocimiento depurado por personas entendidas y gratis, por un sistema probabilístico poco fiable, totalmente opaco y en
+muchos casos de pago.
 
+¿Por qué afirmo: "La IA sabe lo que tú no sabes"?, es una afirmación irónica que enfatiza en el que, para mí, es el
+problema principal del uso de la IA actualmente: la falta de pensamiento crítico sobre las respuestas que proporciona la
+IA. El problema es que para poder tener este tipo de pensamiento tendría que tener un conocimiento previo, de lo
+contrario, todo me parecería correcto.
 
-Meses de experimentación con la IA me ha hecho concluir que posiblemente esta herramienta es la generadora definitiva de
-*boilerplates*, software genérico que ahorra tiempo, pero que en el momento que se tiene que hacer algo de verdad, se
-queda corto y obsoleto.
-
-
-https://es.wikipedia.org/wiki/Efecto_Einstellung
+En conclusión, rompo una lanza a favor de la obtención de conocimiento desde fuentes fiables y contrastadas, ideas que
+tengan nombre y apellidos, idea que sean refutadas o enaltecidas, ideas que sean basadas en experiencias e historias que
+ayuden a crear este pensamiento crítico y que ayude al correcto uso de las IA.
