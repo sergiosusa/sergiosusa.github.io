@@ -617,6 +617,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2025-10-05T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20251005_kraken.webp",
       type: "concert",
+    },
+    {
+      name: "Electric Callboy + Bury Tomorrow + Wargasm",
+      startDate: new Date("2026-01-22T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20260122_electric-callboy.webp",
+      type: "concert",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate)).reverse();
 
