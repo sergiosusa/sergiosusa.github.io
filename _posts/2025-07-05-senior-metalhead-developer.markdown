@@ -623,6 +623,12 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2026-01-22T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20260122_electric-callboy.webp",
       type: "concert",
+    },
+    {
+      name: "Epica + Amaranthe + Charlotte Wessels",
+      startDate: new Date("2026-01-30T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20260130_epica.webp",
+      type: "concert",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate)).reverse();
 
