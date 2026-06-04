@@ -629,6 +629,18 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       startDate: new Date("2026-01-30T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20260130_epica.webp",
       type: "concert",
+    },
+    {
+      name: "Kraken",
+      startDate: new Date("2026-05-04T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20260604_kraken.webp",
+      type: "concert",
+    },
+    {
+      name: "Sauron",
+      startDate: new Date("2026-05-06T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20260606_sauron.webp",
+      type: "concert",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate)).reverse();
 
