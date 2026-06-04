@@ -686,9 +686,6 @@ events.forEach(event => {
 });
 </script>
 
-
-
-
 <script type="text/javascript">
 
 document.addEventListener("DOMContentLoaded", function () {

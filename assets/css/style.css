@@ -2475,4 +2475,8 @@ ul .t-ltr-dark {
   background-color: #333;
 }
 
+.event-content .expandible {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
