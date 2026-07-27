@@ -63,7 +63,7 @@ Seguramente porque es mucho más fácil escribir un "prompt" (instrucción, preg
 inteligencia artificial (IA) para que genere un resultado) y aceptar ciegamente la respuesta que buscar el problema en
 plataformas especializadas e incluso en libros.
 
-El problema real detrás de esta triste realidad, es que hemos cambiado un sistema colaborativo de generación de
+El verdadero problema detrás de esta triste realidad, es que hemos cambiado un sistema colaborativo de generación de
 conocimiento depurado por personas entendidas y gratis, por un sistema probabilístico poco fiable, totalmente opaco y en
 muchos casos de pago.
 
