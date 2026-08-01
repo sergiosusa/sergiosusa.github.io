@@ -6,7 +6,7 @@ description: Hace un par de meses vi en una red social un mensaje de un desarrol
 img: enchula-tu-perfil-de-github.webp
 img-cover: enchula-tu-perfil-de-github-cover.webp
 tags: [github]
-category: Tecnología
+category: tecnologia
 ---
 
 Hace un par de meses vi en una red social un mensaje de un desarrollador indicando que se podía mostrar el contenido de un README totalmente personalizado en el perfil personal de Github. 

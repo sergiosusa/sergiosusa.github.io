@@ -8,7 +8,7 @@ description:
 img: senior-metalhead-developer.webp
 img-cover: senior-metalhead-developer.webp
 tags: [ metal,música,conciertos ]
-category: IRL
+category: irl
 ---
 
 No recuerdo exactamente cuando fue el momento en que me empecé a escuchar música y tampoco me recuerdo escuchando nada

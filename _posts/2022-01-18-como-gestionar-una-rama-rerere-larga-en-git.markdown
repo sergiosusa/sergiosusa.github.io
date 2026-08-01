@@ -6,7 +6,7 @@ description: Cuando empecé a usar entornos Linux me encantó su terminal, su po
 img: como-gestionar-una-rama-rerere-larga-en-git.webp
 img-cover: como-gestionar-una-rama-rerere-larga-en-git-cover.webp
 tags: [ git, rerere ]
-category: Desarrollo de Software
+category: desarrollo-de-software
 ---
 
 

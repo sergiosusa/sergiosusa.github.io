@@ -6,7 +6,7 @@ description: '¿Por qué afirmo: "La IA sabe lo que tú no sabes"?, es una afirm
 img: la-ia-sabe-lo-que-tu-no-sabes-cover.webp
 img-cover: la-ia-sabe-lo-que-tu-no-sabes.webp
 tags: [ IA ]
-category: Opinión
+category: opinion
 ---
 
 La revolución de las máquinas se acerca, Skynet o IA, para los amigos, ha llegado para cambiar la forma en que

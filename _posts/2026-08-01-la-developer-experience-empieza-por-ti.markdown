@@ -6,7 +6,7 @@ description: 'La eficiencia no es solo usar la IA, el uso de las herramientas co
 img: la-developer-experience-empieza-por-ti.webp
 img-cover: la-developer-experience-empieza-por-ti-cover.webp
 tags: [ Developer ]
-category: Desarrollo de Software
+category: desarrollo-de-software
 ---
 
 Llevo años escuchando a equipos, departamentos y empresas hablar de cómo mejorar la “Developer Experience”, para quienes

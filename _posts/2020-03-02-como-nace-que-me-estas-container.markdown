@@ -6,7 +6,7 @@ description: 'La idea de hacer este podcast surgió luego que me comprometiese a
 img: como-nace-que-me-estas-container.webp
 img-cover: como-nace-que-me-estas-container-cover.webp
 tags: [podcast,informática]
-category: IRL
+category: irl
 ---
 
 La idea de hacer este podcast surgió luego que me comprometiese a participar en uno: <a href="" target="_blank">"Todo esta mal"</a> y, ya que iba a hacer una inversión en equipamiento, lo más lógico para mí era aprovecharlo y montar mi propio chiringuito. 

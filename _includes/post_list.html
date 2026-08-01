@@ -73,7 +73,7 @@
                                 {% assign sortedCategories = site.categories | sort %}
                                 {% for category in sortedCategories %}
                                 {% assign cat4url = category[0] | replace: ' ', '-' | downcase | slugify:"latin" %}
-                                <li class="d-flex justify-content-between"><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}">{{ category[0] }}</a> <span>{{ category[1].size }}</span></li>
+                                <li class="d-flex justify-content-between"><a href="{{site.baseurl}}/blog/categoria/{{cat4url}}">{{ category[0] | replace: "-", " " | capitalize }}</a> <span>{{ category[1].size }}</span></li>
                                 {% endfor %}
                             </ul>
                         </div>

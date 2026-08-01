@@ -7,7 +7,7 @@ description:
 img: fiebre-de-microservicios-por-la-noche.webp
 img-cover: fiebre-de-microservicios-por-la-noche-cover.webp
 tags: [ programación,microservicio,monolito ]
-category: Desarrollo de Software
+category: desarrollo-de-software
 ---
 
 Durante la Spring I/O del 2025 celebrada en Barcelona, en el curso de una entrevista, una pregunta me recordó uno de

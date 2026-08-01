@@ -7,7 +7,7 @@ description: Han pasado años desde que empecé a usar los userscripts, primero,
 img: como-automatizar-procesos-repetitivos-e-incomodos-en-el-navegador.webp
 img-cover: como-automatizar-procesos-repetitivos-e-incomodos-en-el-navegador-cover.webp
 tags: [ programación,userscript,javascript ]
-category: Desarrollo de Software
+category: desarrollo-de-software
 ---
 
 Han pasado años desde que empecé a usar los userscripts, primero, como hobby, al automatizar cosas que quería hacer en

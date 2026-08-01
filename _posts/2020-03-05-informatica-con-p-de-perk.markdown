@@ -6,7 +6,7 @@ description: La alta demanda de informáticos en el mercado hace que las empresa
 img: informatica-con-p-de-perk.webp
 img-cover: informatica-con-p-de-perk-cover.webp
 tags: [perks,informática]
-category: Opinión
+category: opinion
 ---
 
 Hace años se veía a los informáticos como seres antisociales que estaban rodeados de ordenadores, pantallas y, además, eran confinados a zulos sin posibilidad de ver la luz. Era la época en que las empresas más tecnológicas eran las telefónicas y los bancos y no existía casi nada de lo que usamos a diario actualmente. 

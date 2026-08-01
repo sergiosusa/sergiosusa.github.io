@@ -26,5 +26,5 @@ layout: main
     </div>
 </section>
 
-{% assign posts = site.categories[page.category-name] %}
+{% assign posts = site.categories[page.category-slug] %}
 {% include post_list.html posts=posts %}
