@@ -423,9 +423,9 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       type: "festival",
     },
     {
-      name: "Hellfest 2016",
-      startDate: new Date("2016-06-20T00:00:00"),
-      endDate: new Date("2016-06-22T00:00:00"),
+      name: "Hellfest 2014",
+      startDate: new Date("2014-06-20T00:00:00"),
+      endDate: new Date("2014-06-22T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20140620-hellfest.webp",
       type: "festival",
     },
