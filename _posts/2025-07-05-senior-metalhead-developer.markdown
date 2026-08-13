@@ -648,6 +648,13 @@ con todos los conciertos y festivales a los que he asistido hasta la fecha:
       endDate: new Date("2026-07-05T00:00:00"),
       image: "/assets/images/blog/senior-metalhead-developer/20260701-rock-fest-barcelona-2026.webp",
       type: "festival",
+    },
+    {
+      name: "Leyendas del Rock 2026",
+      startDate: new Date("2026-08-05T00:00:00"),
+      endDate: new Date("2026-08-08T00:00:00"),
+      image: "/assets/images/blog/senior-metalhead-developer/20260805-leyendas-del-rock.webp",
+      type: "festival",
     }
   ].sort((a, b) => new Date(a.startDate) - new Date(b.startDate)).reverse();
 
